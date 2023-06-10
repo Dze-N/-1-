@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7FF7F46B-89CD-46C7-994A-D5CB3AA8D718}</ProjectGuid>
+    <ProjectGuid>{19A29861-EDF2-44FF-9C63-FEAE0939348E}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Homework_01</RootNamespace>
-    <AssemblyName>Homework_01</AssemblyName>
+    <RootNamespace>Homework_Theme_01</RootNamespace>
+    <AssemblyName>Homework_Theme_01</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,8 +46,6 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Repository.cs" />
-    <Compile Include="Worker.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
